@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschutzerklärung – ChessTacToe</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 48px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
+    h1 { font-size: 1.7rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    p, li { font-size: 0.97rem; }
+    ul { padding-left: 1.4rem; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 2.5rem 0; }
+    .lang-toggle { margin-bottom: 2rem; }
+    .lang-toggle a { color: #0066cc; cursor: pointer; font-size: 0.9rem; }
+    #en { display: none; }
+  </style>
+  <script>
+    function showLang(lang) {
+      document.getElementById('de').style.display = lang === 'de' ? 'block' : 'none';
+      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    }
+  </script>
+</head>
+<body>
+
+<div class="lang-toggle">
+  <a onclick="showLang('de')">🇩🇪 Deutsch</a> &nbsp;|&nbsp;
+  <a onclick="showLang('en')">🇬🇧 English</a>
+</div>
+
+<!-- DEUTSCH -->
+<div id="de">
+  <h1>Datenschutzerklärung</h1>
+  <p><strong>App:</strong> ChessTacToe<br>
+  <strong>Plattform:</strong> iOS (iPhone, iPad)<br>
+  <strong>Stand:</strong> März 2026</p>
+
+  <h2>1. Verantwortlicher</h2>
+  <p>
+    Christian Renneberg – Testdesigner.de<br>
+    Hinter der Mühle 33b<br>
+    21635 Jork<br>
+    Germany<br>
+    <a href="mailto:christian@testdesigner.de">christian@testdesigner.de</a>
+  </p>
+
+  <h2>2. Welche Daten werden erhoben?</h2>
+
+  <h3>2.1 Konto &amp; Profil</h3>
+  <ul>
+    <li>Bei Nutzung von „Sign in with Apple": ein anonymisierter Apple-Nutzerbezeichner (keine E-Mail-Adresse ohne deine Einwilligung). Dieser wird durch eine stabile App-interne ID ersetzt und in Apple iCloud Key-Value Store gespeichert.</li>
+    <li>Selbst gewählter Nickname und Elo-Score werden in Apple CloudKit gespeichert.</li>
+  </ul>
+
+  <h3>2.2 Spielbetrieb</h3>
+  <ul>
+    <li>Matchhistorie, Züge, Chatverläufe in Matches, Freundeslisten, Blocklisten werden in Apple CloudKit gespeichert, um den Mehrspielerbetrieb zu ermöglichen.</li>
+    <li>Es wird kein eigener Server betrieben; alle Daten liegen in deinem iCloud-Account.</li>
+  </ul>
+
+  <h3>2.3 Werbung (nur werbefinanzierte Nutzung)</h3>
+  <ul>
+    <li>Die App nutzt Google AdMob für Werbeinblendungen. Falls du dem App-Tracking mit Apple ATT (AppTrackingTransparency) zustimmst, kann deine IDFA (Advertising Identifier) für personalisierte Werbung verwendet werden.</li>
+    <li>Ohne Zustimmung werden nur kontextbasierte, nicht-personalisierte Anzeigen gezeigt.</li>
+    <li>Datenschutzerklärung von Google/AdMob: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+  </ul>
+
+  <h3>2.4 Anonymes App-Nutzungslogging (Analytics)</h3>
+  <ul>
+    <li>Die App speichert lokal anonyme Ereignisse (z. B. „Match gestartet", „Kauf abgebrochen"). Diese enthalten keine persönlichen Daten und werden nicht übertragen.</li>
+    <li>Im Produktivbetrieb werden keine Ereignisse dauerhaft lokal gespeichert.</li>
+  </ul>
+
+  <h2>3. Rechtsgrundlagen (DSGVO)</h2>
+  <ul>
+    <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> – Vertragserfüllung (Mehrspielerfunktion, Konto)</li>
+    <li><strong>Art. 6 Abs. 1 lit. a DSGVO</strong> – Einwilligung (personalisierte Werbung via ATT)</li>
+    <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> – berechtigtes Interesse (Spielbetrieb, Sicherheit)</li>
+  </ul>
+
+  <h2>4. Weitergabe an Dritte</h2>
+  <ul>
+    <li><strong>Apple Inc.</strong> – iCloud/CloudKit, Sign in with Apple (Apple-Datenschutzrichtlinie: <a href="https://www.apple.com/legal/privacy/de-ww/" target="_blank">apple.com/legal/privacy</a>)</li>
+    <li><strong>Google LLC</strong> – AdMob/Werbung (nur bei Zustimmung personalisiert)</li>
+    <li>Keine Weitergabe an sonstige Dritte.</li>
+  </ul>
+
+  <h2>5. Speicherdauer</h2>
+  <p>Daten in CloudKit werden gelöscht, wenn du dein Konto in der App unter Einstellungen → Konto löschen löschst. Dabei werden alle Matches, Chatverläufe, Freundeslisten und dein Profil entfernt.</p>
+
+  <h2>6. Deine Rechte</h2>
+  <ul>
+    <li>Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung</li>
+    <li>Widerspruch gegen Verarbeitung</li>
+    <li>Datenportabilität</li>
+    <li>Widerruf einer erteilten Einwilligung (z. B. ATT-Zustimmung jederzeit in iOS-Einstellungen → Datenschutz → Tracking widerrufbar)</li>
+    <li>Beschwerderecht bei der zuständigen Datenschutzbehörde</li>
+  </ul>
+  <p>Anfragen bitte per E-Mail an: <a href="mailto:christian@testdesigner.de">christian@testdesigner.de</a></p>
+
+  <h2>7. Minderjährige</h2>
+  <p>Die App richtet sich nicht gezielt an Kinder unter 13 Jahren. Wir erheben wissentlich keine Daten von Kindern.</p>
+
+  <h2>8. Änderungen</h2>
+  <p>Änderungen dieser Datenschutzerklärung werden auf dieser Seite veröffentlicht. Das Datum der letzten Aktualisierung ist oben angegeben.</p>
+</div>
+
+<hr>
+
+<!-- ENGLISH -->
+<div id="en">
+  <h1>Privacy Policy</h1>
+  <p><strong>App:</strong> ChessTacToe<br>
+  <strong>Platform:</strong> iOS (iPhone, iPad)<br>
+  <strong>Last updated:</strong> March 2026</p>
+
+  <h2>1. Controller</h2>
+  <p>
+    Christian Renneberg – Testdesigner.de<br>
+    Hinter der Mühle 33b<br>
+    21635 Jork<br>
+    Germany<br>
+    <a href="mailto:christian@testdesigner.de">christian@testdesigner.de</a>
+  </p>
+
+  <h2>2. Data We Collect</h2>
+
+  <h3>2.1 Account &amp; Profile</h3>
+  <ul>
+    <li>When using Sign in with Apple: an anonymized Apple user identifier (no email address unless you explicitly share it). This is mapped to a stable app-internal ID stored in Apple iCloud Key-Value Store.</li>
+    <li>Your chosen nickname and Elo score are stored in Apple CloudKit.</li>
+  </ul>
+
+  <h3>2.2 Gameplay</h3>
+  <ul>
+    <li>Match history, moves, in-match chat messages, friend lists, and block lists are stored in Apple CloudKit to enable multiplayer functionality.</li>
+    <li>We do not operate our own server; all data resides in your iCloud account.</li>
+  </ul>
+
+  <h3>2.3 Advertising (ad-supported users only)</h3>
+  <ul>
+    <li>The app uses Google AdMob to display ads. If you consent via Apple's ATT (AppTrackingTransparency) prompt, your IDFA may be used for personalized ads.</li>
+    <li>Without consent, only contextual, non-personalized ads are shown.</li>
+    <li>Google/AdMob Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+  </ul>
+
+  <h3>2.4 Anonymous Analytics</h3>
+  <ul>
+    <li>The app logs anonymous events locally (e.g. "match started", "purchase cancelled"). These contain no personal data and are not transmitted.</li>
+    <li>In production builds, no events are persisted locally.</li>
+  </ul>
+
+  <h2>3. Legal Bases (GDPR)</h2>
+  <ul>
+    <li><strong>Art. 6(1)(b) GDPR</strong> – Contract performance (multiplayer, account)</li>
+    <li><strong>Art. 6(1)(a) GDPR</strong> – Consent (personalized ads via ATT)</li>
+    <li><strong>Art. 6(1)(f) GDPR</strong> – Legitimate interest (game operation, security)</li>
+  </ul>
+
+  <h2>4. Third Parties</h2>
+  <ul>
+    <li><strong>Apple Inc.</strong> – iCloud/CloudKit, Sign in with Apple (<a href="https://www.apple.com/legal/privacy/en-ww/" target="_blank">apple.com/legal/privacy</a>)</li>
+    <li><strong>Google LLC</strong> – AdMob/Advertising (personalized only with consent)</li>
+    <li>No other third parties receive your data.</li>
+  </ul>
+
+  <h2>5. Data Retention</h2>
+  <p>Your CloudKit data is deleted when you use the in-app account deletion feature (Settings → Delete Account). This removes all matches, chat history, friend lists, and your profile.</p>
+
+  <h2>6. Your Rights</h2>
+  <ul>
+    <li>Access, rectification, erasure, restriction of processing</li>
+    <li>Objection to processing</li>
+    <li>Data portability</li>
+    <li>Withdrawal of consent (ATT consent can be revoked at any time in iOS Settings → Privacy → Tracking)</li>
+    <li>Right to lodge a complaint with a supervisory authority</li>
+  </ul>
+  <p>Contact us at: <a href="mailto:christian@testdesigner.de">christian@testdesigner.de</a></p>
+
+  <h2>7. Children</h2>
+  <p>This app is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+  <h2>8. Changes</h2>
+  <p>Updates to this policy will be posted on this page with a revised date.</p>
+</div>
+
+</body>
+</html>
